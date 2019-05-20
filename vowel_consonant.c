@@ -3,7 +3,7 @@ void main()
 {
 char ca;
 scanf("%c",&ca);
-if((ca>'a'&&ca<'z') || (ca>'A'&&ca<'Z'))
+if((ca>='a'&&ca<='z') || (ca>='A'&&ca<='Z'))
 {
 
     if(ca=='a' || ca=='e' || ca=='i' || ca=='o' || ca=='u' || ca=='A' || ca=='E' || ca=='I' || ca=='O' || ca=='U')
@@ -14,10 +14,13 @@ if((ca>'a'&&ca<'z') || (ca>'A'&&ca<'Z'))
         {
             printf("Consonant");
         }
+    
 }
 else
 {
-	printf("invalid");
+    printf("invalid");
+    
 }    
 }
+
 
