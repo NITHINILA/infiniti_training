@@ -2,7 +2,7 @@
 void main()
 {
 	int num;
-	scanf("%d",&number1);
+	scanf("%d",&num);
 	if(num<0)
 	{
 		printf("invalid");
