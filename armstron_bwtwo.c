@@ -3,7 +3,7 @@ void main()
 {
 int n1,n2,temp,i,base,sum;
 scanf("%d %d",&n1,&n2);
-for(i=n1;i<n2;i++)
+for(i=n1+1;i<n2;i++)
 {
 	temp=i;
 	sum=0;
