@@ -7,5 +7,6 @@ while(i<=5)
 {
     ans=num*i;
     printf("%d\t",ans);
+    i++;
 }
 }
