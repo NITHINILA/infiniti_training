@@ -5,10 +5,10 @@
     scanf("%c",&c);
     if(isdigit(c))
     {
-        printf("yes");
+        printf("Yes");
     }
     else
     {
-        printf("no");
+        printf("No");
     }
     }
